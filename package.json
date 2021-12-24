@@ -1,0 +1,20 @@
+{
+  "name": "Tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:LegendNed/fastify-repro.git",
+  "author": "Ned <nedasstockus@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "tsc-watch --onSuccess \"node dist\""
+  },
+  "dependencies": {
+    "fastify": "^3.25.2",
+    "fastify-plugin": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.4",
+    "tsc-watch": "^4.6.0",
+    "typescript": "^4.5.4"
+  }
+}
